@@ -26,5 +26,5 @@ if __name__ == "__main__":
     '''
     data = json.loads(jsonString)
     info = weather(data)
-    print("On days with wather alerts:")
+    print("On days with weather alerts:")
     print(*info, sep='\n')
